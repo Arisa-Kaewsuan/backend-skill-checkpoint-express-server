@@ -57,11 +57,11 @@
 <br/><br/>
 
 ### ▶ Optional Software Requirements
-- [ ]  API เส้นที่ 6 : ผู้ใช้งานสามารถที่จะค้นหาคำถามจากหัวข้อ หรือหมวดหมู่ได้ (Search questions by title or category) : `app.get(“/questions/search”, controller function)`
-    - [ ]  ใช้ postman เช็คผ่านแล้ว	
+- [ ]  ⚠️ API เส้นที่ 6 : ผู้ใช้งานสามารถที่จะค้นหาคำถามจากหัวข้อ หรือหมวดหมู่ได้ (Search questions by title or category) : `app.get(“/questions/search”, controller function)`
+    - [ ]  ⚠️ ใช้ postman เช็คผ่านแล้ว	
 
 - [x]  API เส้นที่ 7 : ผู้ใช้งานสามารถสร้างคำตอบของคำถามนั้นได้ (Create an answer for a question) : `app.post(“/questions/:questionId/answers”, controller function)`
-    - [ ]  คำตอบจะเป็นข้อความยาวๆ ไม่เกิน 300 ตัวอักษร
+    - [ ]  ⚠️ คำตอบจะเป็นข้อความยาวๆ ไม่เกิน 300 ตัวอักษร
     - [x]  ใช้ postman เช็คผ่านแล้ว
 
 - [x] API เส้นที่ 8 : ผู้ใช้งานสามารถที่จะดูคำตอบของคำถามแต่ละอันได้ (Get answers for a question) : `app.get(“/questions/:questionId/answers”, controller function)`
@@ -71,10 +71,10 @@
 
     - [x]  ใช้ postman เช็คผ่านแล้ว
 
-- [ ]  API เส้นที่ 10 : ผู้ใช้งานสามารถกดปุ่มเห็นด้วย หรือไม่เห็นด้วยกับคำตอบได้
-    - [ ]  จำนวนคนที่เห็นด้วยสามารถเป็น + และเป็น - ได้
+- [ ]  ⚠️ API เส้นที่ 10 : ผู้ใช้งานสามารถกดปุ่มเห็นด้วย หรือไม่เห็นด้วยกับคำตอบได้
+    - [ ]  ⚠️ จำนวนคนที่เห็นด้วยสามารถเป็น + และเป็น - ได้
 
-- [ ]  API เส้นที่ 11 : ผู้ใช้งานสามารถกดเห็นด้วยหรือไม่เห็นด้วยกับคำถามได้ด้วยเช่นกัน
+- [ ]  ⚠️ API เส้นที่ 11 : ผู้ใช้งานสามารถกดเห็นด้วยหรือไม่เห็นด้วยกับคำถามได้ด้วยเช่นกัน
 
 - [x]  ใช้ Router แบ่งกลุ่มโค้ด API
 
@@ -84,8 +84,8 @@
 <br/><br/>
 
 ### ▶ Write Documentation
-- [ ]  สร้าง API Documentation ด้วย Swagger ([ดูตัวอย่างการใช้งาน Swagger](https://www.youtube.com/watch?v=apouPYPh_as))
-    - [ ]  [Swagger Package บน NPM](https://github.com/scottie1984/swagger-ui-express)
+- [ ]  ⚠️ สร้าง API Documentation ด้วย Swagger ([ดูตัวอย่างการใช้งาน Swagger](https://www.youtube.com/watch?v=apouPYPh_as))
+    - [ ]  ⚠️ [Swagger Package บน NPM](https://github.com/scottie1984/swagger-ui-express)
 
 - [x]  เขียนอธิบายผลงานใน README.md ([ดูวิธีการเขียน README](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/))
 
